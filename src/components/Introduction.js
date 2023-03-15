@@ -1,5 +1,5 @@
 import "./style/Introduction.css";
-import picProfile from '../assets/images/picProfile.png'
+import picProfile from "../assets/images/picProfile.png";
 
 function Introduction() {
   return (
@@ -17,19 +17,30 @@ function Introduction() {
 
         <div className="introduction">
           <p>
-            Hello, I am interested in <b>front end developer</b>. Aims to develop one's
-            skills, develop new things, and have a better user experience.
-            Increase work progress by learning the culture of the organization
-            and working as a team to <b>grow together.</b>
+            Hello, I am interested in <b>front end developer</b>. Aims to
+            develop one's skills, develop new things, and have a better user
+            experience. Increase work progress by learning the culture of the
+            organization and working as a team to <b>grow together.</b>
           </p>
         </div>
       </div>
 
       <div className="img-title background-gradient">
-      
+        <div className="flex-center">
+          <img src={picProfile} width="35%" />
+          <div className="two-circle">
+          <div className="big-circle">
 
+          </div>
+          <div className="big-circle">
 
+          </div>
+          </div>
+          <div className="three-circles">
+            
+            </div>
 
+        </div>
       </div>
     </div>
   );
