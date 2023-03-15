@@ -1,4 +1,5 @@
 import "./style/Introduction.css";
+import picProfile from '../assets/images/picProfile.png'
 
 function Introduction() {
   return (

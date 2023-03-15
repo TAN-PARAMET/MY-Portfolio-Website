@@ -6,6 +6,7 @@
 
 .text-title {
   margin-left: 5rem;
+  margin-right: 5rem;
 }
 
 .text-name {
@@ -45,9 +46,11 @@
 
 .img-title{
 
+width: 50rem;
+display: flex;
+justify-content: center;
+align-items: center;
 
-
-    
 }
 
 
