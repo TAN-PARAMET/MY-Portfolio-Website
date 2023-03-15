@@ -1,22 +1,53 @@
-.container{
-
-display: flex;
-margin-top: 2rem;
-
+.container {
+  display: flex;
+  margin-top: 3rem;
+  justify-content: space-between;
 }
 
+.text-title {
+  margin-left: 5rem;
+}
 
+.text-name {
+  margin-top: 3rem;
+}
 
+.text-name > h1 {
+  font-size: 3rem;
+}
+
+.text-name > b {
+  font-size: 5rem;
+}
+
+.text-name > p {
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  margin-top: -2.4rem;
+}
 
 .text-welcome > b {
-font-size: 5rem;
-
+  font-size: 3.5rem;
+  
 }
 
 .text-welcome > p {
-    font-size: 2.5rem;
-    letter-spacing: 7px;
-    margin-top: -2.4rem;
+  font-size: 1.5rem;
+  letter-spacing: 7.5px;
+  margin-top: -1.5rem;
 
-    }
+}
+
+.introduction{
+    margin-top: 2rem;
+    width: 25rem;
+}
+
+.img-title{
+
+
+
     
+}
+
+

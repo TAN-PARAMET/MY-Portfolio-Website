@@ -5,31 +5,31 @@ function Introduction() {
     <div className="container">
       <div className="text-title">
         <div className="text-welcome">
-          <b>Welcome</b>
-          <p>To My Website</p>
+          <b className="text-gradient">Welcome</b>
+          <p className="color-yellow">To My Website</p>
         </div>
         <div className="text-name">
-          <p>HELLO I AM TAN</p>
-          <b>PARAMET</b>
-          <p>Chuchumchuen</p>
+          <h1 className="color-puple">HELLO I AM TAN</h1>
+          <b className="color-pink">PARAMET</b>
+          <p className="color-pink">CHUCHUMCHUEN</p>
         </div>
 
         <div className="introduction">
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
-            and scrambled it to make a type specimen book. It has survived not
-            only five centuries, but also the leap into electronic typesetting,
-            remaining essentially unchanged. It was popularised in the 1960s
-            with the release of Letraset sheets containing Lorem Ipsum passages,
-            and more recently with desktop publishing software like Aldus
-            PageMaker including versions of Lorem Ipsum.
+            Hello, I am interested in <b>front end developer</b>. Aims to develop one's
+            skills, develop new things, and have a better user experience.
+            Increase work progress by learning the culture of the organization
+            and working as a team to <b>grow together.</b>
           </p>
         </div>
       </div>
 
-      <div className="img-title"></div>
+      <div className="img-title background-gradient">
+      
+
+
+
+      </div>
     </div>
   );
 }
