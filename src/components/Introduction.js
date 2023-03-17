@@ -1,5 +1,12 @@
 import "./style/Introduction.css";
 import picProfile from "../assets/images/picProfile.png";
+import figma from "../assets/images/figma.png";
+import node_js from "../assets/images/node_js.png";
+import reacticon from "../assets/images/reacticon.png";
+import sql from "../assets/images/sql.png";
+import wordpress from "../assets/images/wordpress.png";
+
+
 
 function Introduction() {
   return (
@@ -26,20 +33,43 @@ function Introduction() {
       </div>
 
       <div className="img-title background-gradient">
-        <div className="flex-center">
+        <div style={{ flexDirection: "column" }} className="flex-center">
           <img src={picProfile} width="35%" />
-          <div className="two-circle">
-          <div className="big-circle">
-
+          <div
+            style={{
+              justifyContent: "space-between",
+              width: "500px",
+              marginTop: "-60px",
+            }}
+            className="two-circle flex-center"
+          >
+            <div className="big-circle background-black circles  flex-center">
+              <img width={"50px"} src={figma} />
+            </div>
+            <div className="big-circle background-black circles flex-center">
+              <img width={"50px"} src={node_js} />
+            </div>
           </div>
-          <div className="big-circle">
-
-          </div>
-          </div>
-          <div className="three-circles">
-            
+          <div
+            style={{
+              justifyContent: "space-between",
+              width: "300px",
+              marginTop: "5px",
+            }}
+            className="three-circles flex-center"
+          >
+            <div className="mini-circle background-black  flex-center">
+              <img width={"25px"} src={wordpress} />
             </div>
 
+            <div className="big-circle background-black circles flex-center">
+              <img width={"50px"} src={reacticon} />
+            </div>
+
+            <div className="mini-circle background-black  flex-center">
+              <img width={"25px"} src={sql} />
+            </div>
+          </div>
         </div>
       </div>
     </div>
