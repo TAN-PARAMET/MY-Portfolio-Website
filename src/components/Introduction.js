@@ -33,8 +33,8 @@ function Introduction() {
       </div>
 
       <div className="img-title background-gradient">
-        <div style={{ flexDirection: "column" }} className="flex-center">
-          <img src={picProfile} width="35%" />
+        <div style={{ flexDirection: "column",marginLeft:'50px',marginRight:'50px', }} className="flex-center">
+          <img src={picProfile} width="55%" />
           <div
             style={{
               justifyContent: "space-between",
