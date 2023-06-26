@@ -17,7 +17,7 @@ function Introduction() {
           <p className="color-yellow">To My Website</p>
         </div>
         <div className="text-name">
-          <h1 className="color-puple">HELLO I AM TAN</h1>
+          <h1 className="color-puple typing-demo">HELLO I AM TAN</h1>
           <b className="color-pink">PARAMET</b>
           <p className="color-pink">CHUCHUMCHUEN</p>
         </div>
