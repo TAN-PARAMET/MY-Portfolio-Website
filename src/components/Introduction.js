@@ -5,10 +5,34 @@ import node_js from "../assets/images/node_js.png";
 import reacticon from "../assets/images/reacticon.png";
 import sql from "../assets/images/sql.png";
 import wordpress from "../assets/images/wordpress.png";
-
-
+import Typed from 'typed.js';
+import React from 'react';
 
 function Introduction() {
+
+  const el = React.useRef(null);
+
+  React.useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: ['HELLO I AM  TAN', 'LOVE CODEING','AND CAT'],
+      typeSpeed: 100,
+      backSpeed: 100,
+      loop: true
+
+    });
+
+    return () => {
+      // Destroy Typed instance during cleanup to stop animation
+      typed.destroy();
+    };
+  }, []);
+
+
+
+
+
+
+
   return (
     <div className="container">
       <div className="text-title">
@@ -17,7 +41,7 @@ function Introduction() {
           <p className="color-yellow">To My Website</p>
         </div>
         <div className="text-name">
-          <h1 className="color-puple typing-demo">HELLO I AM TAN</h1>
+          <h1 className="color-puple "><span ref={el} /> </h1>
           <b className="color-pink">PARAMET</b>
           <p className="color-pink">CHUCHUMCHUEN</p>
         </div>
@@ -43,10 +67,10 @@ function Introduction() {
             }}
             className="two-circle flex-center"
           >
-            <div className="big-circle background-black circles  flex-center">
+            <div className="big-circle background-black circles  flex-center scaleUp">
               <img width={"50px"} src={figma} />
             </div>
-            <div className="big-circle background-black circles flex-center">
+            <div className="big-circle background-black circles flex-center scaleUp">
               <img width={"50px"} src={node_js} />
             </div>
           </div>
@@ -56,17 +80,17 @@ function Introduction() {
               width: "300px",
               marginTop: "5px",
             }}
-            className="three-circles flex-center"
+            className="three-circles flex-center "
           >
-            <div className="mini-circle background-black  flex-center">
+            <div className="mini-circle background-black  flex-center scaleUp">
               <img width={"25px"} src={wordpress} />
             </div>
 
-            <div className="big-circle background-black circles flex-center">
+            <div className="big-circle background-black circles flex-center scaleUp">
               <img width={"50px"} src={reacticon} />
             </div>
 
-            <div className="mini-circle background-black  flex-center">
+            <div className="mini-circle background-black  flex-center scaleUp">
               <img width={"25px"} src={sql} />
             </div>
           </div>
