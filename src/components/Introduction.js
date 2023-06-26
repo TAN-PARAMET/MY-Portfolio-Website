@@ -14,7 +14,7 @@ function Introduction() {
 
   React.useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ['HELLO I AM  TAN', 'LOVE CODEING','AND CAT'],
+      strings: ['HELLO I AM  TAN', 'I LOVE CODEING','AND CAT🐱'],
       typeSpeed: 100,
       backSpeed: 100,
       loop: true
